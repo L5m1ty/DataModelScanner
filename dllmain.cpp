@@ -117,7 +117,7 @@ void main()
 	//so after you get a valid datamodel then you can get a valid roblox lua state. all you need to do is a little bit of magic
 	//to get valid rls we can use mellonyts dump for example:
 	//auto RobloxLuaState = (RBX_LuaState(SCDM)); //this code can be wrong if doesnt work then use auto RobloxLuaState = (RBX_LuaState(SC));
-	// [!] ok so we got the RLS but we cant use yet we need to use r_lua_newthread before using it but newthread function has been inlined so you can wait rewrite it urself if u have skills or you can just credit Rexi and use his lib. https://github.com/RexiRexii/Remade-Lua
+	// [!] ok so we got the RLS but we cant use yet we need to use r_lua_newthread before using it but newthread function has been inlined so you can rewrite it urself if u have skills or you can just credit Rexi and use his lib. https://github.com/RexiRexii/Remade-Lua
 	//after getting newthread function working now we can use: 
 	//DWORD RLS = r_lua_newthread(RobloxLuaState);
 	//Happy Exploiting! RLS is the valid rlua state for us to use
